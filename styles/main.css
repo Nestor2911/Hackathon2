@@ -178,11 +178,11 @@ h2{
 }
 
 .contacto .enviar{
-    background-color: #233451;
-    border: 1px solid #233451;
-    width: 20%;
-    padding: 30px;
-    margin-bottom: 30px;
-    color: white;
-    font-weight: bold;
+    width: 170px;
+    font-size: 18px;
+    background: #233451;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
 }
+
