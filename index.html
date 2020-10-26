@@ -5,26 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hackatahon3</title>
+    <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
-    <main>
-        <div>
-            <section class="contenedor1">
-                <a ref="/">
-                    <img src="./images/perfil.png" alt"">
-                </a>
-                <nav>
-                    <h1 class="title1">Pachaqtec</h1>
-                    <p class="yo">
-                        Hola, mi nombre es Nestor Reupo
-                    </p>
-                </nav>
+    <div>
+        <main>
+            <section class="head">
+                <figure><img src="./images/perfil.png" alt""></figure>
+                <h1 class="title1">Pachaqtec</h1>
+                <h2>Hola, mi nombre es Nestor Reupo</h2>
             </section>
             <section class="sobre-mi">
-                <h2 class="title2">Sobre mi</h2>
-                <p class="title2-desc">
+                <h2>Sobre mi</h2>
+                <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum quae nihil, aspernatur ducimus
                     quibusdam
                     magnam obcaecati placeat doloribus ad dolorum illum esse sequi quis dignissimos commodi soluta, qui
@@ -34,13 +29,11 @@
                     corporis nisi minima odio amet accusamus repudiandae sint minus ad vitae repellendus, aperiam
                     magnam. Hic, officia.
                 </p>
-                <div>
-                    <p class="cv">Ver CV</p>
-                </div>
+                <a href="CV">Ver CV</a>
             </section>
-            <section class="skills">
-                <h2 class="title3">Mis Skills</h2>
-                <div class="izquierda">
+            <section class="my-skills">
+                <h2>Mis Skills</h2>
+                <div class="skill">
                     <div>
                         <h3>HTML</h3>
                         <div class="progreso">
@@ -48,21 +41,15 @@
                         </div>
                     </div>
                     <div>
-                        <h3>Javascripts</h3>
-                        <div class="progreso">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3>Flexbox</h3>
+                        <h3>CSS</h3>
                         <div class="progreso">
                             <div></div>
                         </div>
                     </div>
                 </div>
-                <div class="derecha">
+                <div class="skill">
                     <div>
-                        <h3>CSS</h3>
+                        <h3>Javascript</h3>
                         <div class="progreso">
                             <div></div>
                         </div>
@@ -73,63 +60,68 @@
                             <div></div>
                         </div>
                     </div>
+                </div>
+                <div class="skill">
                     <div>
-                        <h3>CSS Grid</h3>
+                        <h3>Flexbox</h3>
                         <div class="progreso">
                             <div></div>
                         </div>
                     </div>
+                    <div>
+                        <h3>CSS Grid</h3>
+                        <div class="progreso">
+                            <div></div>
+                    </div>
                 </div>
+            </section>
             </section>
             <section class="portafolio">
-                <h2 class="title4">Portafolio</h2>
-                <figure class="images1">
-                    <img src="./images/Portafolio1.png" alt="">
-                    <img src="./images/Portafolio2.png" alt="">
-                    <img src="./images/Portafolio3.png" alt="">
-                    <img src="./images/Portafolio4.png" alt="">
-                </figure>
-
-
-                <Figure class="images2">
-                    <img src="./images/Portafolio5.png" alt="">
-                    <img src="./images/Portafolio6.png" alt="">
-                    <img src="./images/Portafolio7.png" alt="">
-                    <img src="./images/Portafolio8.png" alt="">
-                </figure>
+                <h2>Portafolio</h2>
+                <div>
+                    <figure><img src="./images/Portafolio1.png" alt=""></figure>
+                    <figure><img src="./images/Portafolio2.png" alt=""></figure>
+                    <figure><img src="./images/Portafolio3.png" alt=""></figure>
+                    <figure><img src="./images/Portafolio4.png" alt=""></figure>
+                </div>
+                <div>
+                    <figure><img src="./images/Portafolio5.png" alt=""></figure>
+                    <figure><img src="./images/Portafolio6.png" alt=""></figure>
+                    <figure><img src="./images/Portafolio7.png" alt=""></figure>
+                    <figure><img src="./images/Portafolio8.png" alt=""></figure>
+                </div>
             </section>
             <section class="clientes">
+                <h2>Clientes</h2>
                 <div>
-                    <h2 class="title5">Clientes</h2>
-                    <figure class="images3">
-                        <img src="./images/Clientes1.png" alt="">
-                        <img src="./images/Clientes2.png" alt="">
-                        <img src="./images/Clientes3.png" alt="">
-                        <img src="./images/Clientes4.png" alt="">
-                    </figure>
+                    <figure></figure><img src="./images/Clientes1.png" alt=""></figure>
+                    <figure></figure><img src="./images/Clientes2.png" alt=""></figure>
+                    <figure></figure><img src="./images/Clientes3.png" alt=""></figure>
+                    <figure></figure><img src="./images/Clientes4.png" alt=""></figure>
                 </div>
+
             </section>
             <section class="contacto">
-                <div>
-                    <h2 class="title6">Contacto</h2>
-                    <div class="cajas-iz">
-                        <input type="text" placeholder="Nombre"><br><br>
-                        <input type="text" placeholder="Email">
-                    </div>
-                    <div class="cajas-der">
-                        <input type="text" placeholder="Apellido"><br><br>
-                        <input type="text" placeholder="Telefono">
-                    </div>
-                    <div class="desc">
-                        <input type="desc" placeholder="Descripción">
+                <form>
+                    <h2>Contacto</h2>
+                    <div>
+                        <input type="text" placeholder="Nombre">
+                        <input type="text" placeholder="Apellido">                        
                     </div>
                     <div>
-                        <p class="enviar">ENVIAR</p>
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Telefono">
                     </div>
-                </div>
+                    <div>
+                        <textarea id="" cols="85" rows="4">Descripción</textarea>
+                    </div>
+                    <div>
+                        <button class="enviar">ENVIAR</button>
+                    </div>
+                </form>
             </section>
-        </div>
-    </main>
+        </main>
+    </div>
 </body>
 
 </html>
