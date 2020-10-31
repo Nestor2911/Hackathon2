@@ -40,26 +40,26 @@ h2{
 }
 
 /*SOBRE MI*/
-.abaut-me{
+.sobre-mi{
     background-color: #7299FE;
     color: white;
     height: 424px;
 }
 
-.abaut-me h2{
+.sobre-mi h2{
     color: #1D06A7;
     padding: 20px;
     text-align: center;
 }
 
-.abaut-me p{
+.sobre-mi p{
     padding: 20px;
     font-size: 14px;
     line-height: 24px;
     margin: 30px;
 }
 
-.abaut-me a{
+.sobre-mi a{
     background-color: #D16FFF;
     box-shadow: 0 0 10px #b3b3b3;
     width: 387px;
@@ -101,14 +101,14 @@ h2{
     margin-bottom: 10px;
 }
 
-.progress{
+.progreso{
     width: 320px;
     height: 18px;
     background-color: white;
      border-radius: 13px; 
      padding: 3px;
 }
-.progress > div {
+.progreso > div {
     background-color: #57EFF9;
     width: 50%; 
     height: 18px;
@@ -117,17 +117,17 @@ h2{
 
 /*PORTAFOLIO*/
 
-.briefcase{
+.portafolio{
     background-color: #FFD233;
     padding: 20px;
     text-align: center;
 }
 
-.briefcase h2{
+.portafolio h2{
     color: #00AD84;
 }
 
-.briefcase div{
+.portafolio div{
     display: flex;
     padding: 20px;
     justify-content: space-evenly;
@@ -137,19 +137,19 @@ h2{
 
 /* CLIENTES */
 
-.customers{
+.clientes{
     background-color: #3F4E62;
     padding-bottom: 30px;
     padding-top: 10px;
 }
 
-.customers h2{
+.clientes h2{
     color: #ADFF28;
     text-align: center;
     padding-top: 20px;
 }
 
-.customers div{
+.clientes div{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,17 +159,17 @@ h2{
 }
 /*CONTACTO*/
 
-.contact{
+.contacto{
     background-color: #1687A0;
     text-align: center;
 }
 
-.contact h2{
+.contacto h2{
     color: #FF1B1B;
     padding: 20px;
 }
 
-.contact input{
+.contacto input{
     padding: 20px;
     width: 30%;
     border: 1px solid grey;
@@ -177,7 +177,7 @@ h2{
     margin-right: 20px;
 }
 
-.contact .enviar{
+.contacto .enviar{
     width: 170px;
     font-size: 18px;
     background: #233451;
